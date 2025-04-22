@@ -45,13 +45,13 @@ Run:
     python watermark_disruptor.py path/to/your/input_image.png path/to/your/output_image.png
     
     No denoising (default):
-    python watermark_disruptor_v5_denoise.py input.png output.png
+    python watermark_disruptor.py input.png output.png
 
     Apply denoising blend with 30% strength:
-    python watermark_disruptor_v5_denoise.py input.png output.png --denoise 0.3
+    python watermark_disruptor.py input.png output.png --denoise 0.3
 
     Apply full denoising (output is just the median filtered image):
-    python watermark_disruptor_v5_denoise.py input.png output.png --denoise 1.0
+    python watermark_disruptor.py input.png output.png --denoise 1.0
 
     With debug and denoising:
-    python watermark_disruptor_v5_denoise.py input.png output.png --denoise 0.5 --debug
+    python watermark_disruptor.py input.png output.png --denoise 0.5 --debug
